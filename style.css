@@ -1,155 +1,172 @@
-/* Base */
-
-body {
-  font-family: 'Noto Sans Myanmar', Arial, sans-serif;
-  margin: 0;
-  background: #2E2E2E;
-  color: white;
+body{
+font-family: 'Noto Sans Myanmar', Arial, sans-serif;
+margin:0;
+background:#2E2E2E;
+color:white;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+html{
+  scroll-behavior:smooth:
+  }
 
 /* Header */
 
-header {
-  background: #3A3A3A;
-  text-align: center;
-  padding: 40px 20px;
+header{
+background:#3A3A3A;
+text-align:center;
+padding:40px 20px;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 32px;
+header h1{
+margin:0;
+font-size:32px;
 }
 
-header p {
-  color: #BFBFBF;
-  margin-top: 10px;
+header p{
+color:#BFBFBF;
+margin-top:10px;
 }
 
 /* Navigation */
 
-nav {
-  background: #1F1F1F;
-  text-align: center;
-  padding: 15px;
+nav{
+background:#1F1F1F;
+text-align:center;
+padding:15px;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
 }
 
-nav a:hover {
-  color: #BFBFBF;
+nav a:hover{
+color:#BFBFBF;
 }
 
-/* Services Grid */
+/* Section */
 
-.services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-  margin-top: 30px;
+services {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 25px;
+}
+
+/* Service Grid */
+
+.services{
+display:grid;
+grid-template-columns: repeat(2, 1fr);
+gap:25px;
+margin-top:30px;
 }
 
 /* Card */
 
-.card {
-  background: #3A3A3A;
-  padding: 30px;
-  border-radius: 12px;
-  text-align: center;
-  font-size: 18px;
-  transition: 0.3s;
+.card{
+background:#3A3A3A;
+padding:30px;
+border-radius:12px;
+text-align:center;
+font-size:18px;
+transition:0.3s;
 }
 
-.card:hover {
-  background: #4A4A4A;
-  transform: translateY(-5px);
+.card:hover{
+background:#4A4A4A;
+transform:translateY(-5px);
 }
 
-/* Card Link (FIX CLICK ISSUE) */
+/* Link */
 
-.card a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  color: white;
-  text-decoration: none;
+.services a{
+text-decoration:none;
+color:white;
 }
 
-/* Contact Section */
+/* Contact Button */
 
-#contact {
-  text-align: center;
+.contact-box{
+text-align:center;
+margin-top:50px;
 }
 
-.contact-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-  margin-top: 30px;
-}
-
-.contact-card {
-  background: #3A3A3A;
-  padding: 25px;
-  border-radius: 12px;
-  transition: 0.3s;
-}
-
-.contact-card:hover {
-  background: #4A4A4A;
-  transform: translateY(-5px);
-}
-
-.qr {
-  width: 150px;
-  margin: 15px 0;
-}
-
-/* Button */
-
-.contact-btn {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 18px;
-  background: #0084FF;
-  color: white;
-  border-radius: 25px;
-  text-decoration: none;
+.contact-btn{
+display:inline-block;
+background:#0084FF;
+padding:14px 20px;
+border-radius:30px;
+text-decoration:none;
+color:white;
+margin-top:15px;
 }
 
 /* Footer */
 
-footer {
-  background: #1F1F1F;
-  text-align: center;
-  padding: 30px;
-  color: #BFBFBF;
-  margin-top: 40px;
+footer{
+background:#1F1F1F;
+text-align:center;
+padding:30px;
+color:#BFBFBF;
+margin-top:40px;
 }
 
-/* Floating Messenger */
+/* Messenger Button */
 
-.messenger {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #0084FF;
-  color: white;
-  padding: 14px 18px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+.messenger{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#0084FF;
+color:white;
+padding:14px 18px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
 }
 
-.messenger:hover {
-  background: #006fe0;
+.messenger:hover{
+background:#006fe0;
 }
+
+#contact {
+text-align: center;
+}
+
+.contact-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 25px;
+margin-top: 30px;
+}
+
+.contact-card {
+background: #3A3A3A;
+padding: 25px;
+border-radius: 12px;
+transition: 0.3s;
+}
+
+.contact-card:hover {
+background: #4A4A4A;
+transform: translateY(-5px);
+}
+
+.qr {
+width: 150px;
+margin: 15px 0;
+}
+
+.contact-btn {
+display: inline-block;
+margin-top: 10px;
+padding: 10px 18px;
+background: #0084FF;
+color: white;
+border-radius: 25px;
+text-decoration: none;
+}
+
