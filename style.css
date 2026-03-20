@@ -193,7 +193,8 @@ text-decoration: none;
 .detail-box p {
   color: #BFBFBF;
 }
------ Back -------
+  
+/* Back */
 .back{
 position:fixed;
 bottom:20px;
