@@ -201,14 +201,17 @@ text-decoration: none;
   left:20px;
   background:#0084FF;
   color:white;
-  padding:14px 18px;
+  padding:14px 22px;
   border:none;
   border-radius:30px;
   font-weight:bold;
   cursor:pointer;
   box-shadow:0 4px 10px rgba(0,0,0,0.3);
+  z-index:999;
+  transition:0.3s;
 }
 
 .back-btn:hover{
   background:#006fe0;
+  transform:scale(1.05);
 }
