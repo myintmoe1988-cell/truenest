@@ -99,7 +99,15 @@ Contact Us
 <a href="https://m.me/truenestbkkservice" class="messenger">
 Messenger
 </a>
-
+<script>
+function goBack(){
+  if (document.referrer !== "") {
+    history.back();
+  } else {
+    window.location.href = "index.html"; // fallback
+  }
+}
+</script>
 </body>
 
 </html>
